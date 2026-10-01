@@ -1,0 +1,32 @@
+#logo {
+  width: 500px;
+  height: 500px;
+}
+
+* {
+  font-family: "Comic Sans MS";
+  color: yellow;
+}
+
+body {
+  /* background-color: aqua; */
+  background-image: url(/media/ning.png);
+  background-size: 100vw 30vh;
+  background-color: aqua;
+  height: 100000vh;
+}
+
+#marquee {
+  font-size: 3em;
+}
+
+#copyright {
+  position: fixed;
+  top: 5px;
+  right: 5px;
+}
+
+.social {
+  width: 16px;
+  height: 16px;
+}

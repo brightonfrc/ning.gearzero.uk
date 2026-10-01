@@ -1,0 +1,86 @@
+@font-face {
+  font-family: Ubuntu;
+  src: url(/fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+  font-family: Ubuntu;
+  font-weight: bold;
+  src: url(/fonts/Ubuntu/Ubuntu-Bold.ttf);
+}
+
+@font-face {
+  font-family: Ubuntu;
+  font-style: italic;
+  src: url(/fonts/Ubuntu/Ubuntu-Italic.ttf);
+}
+
+@font-face {
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-style: italic;
+  src: url(/fonts/Ubuntu/Ubuntu-BoldItalic.ttf);
+}
+
+* {
+  font-family: Ubuntu;
+}
+
+header {
+  height: 10vh;
+  padding: 10px;
+  background-color: #dddddd;
+}
+
+#logo {
+  height: 100%;
+  pointer-events: none;
+}
+
+body {
+  margin: 0;
+}
+
+#container {
+  padding: 20px;
+}
+
+#welcome {
+  display: flex;
+  margin: auto;
+  width: fit-content;
+}
+
+.welcome-h1 {
+  font-size: 5em;
+  margin: 0;
+  width: 100%;
+}
+
+.welcome-p {
+  font-size: 3em;
+  margin: 0;
+  width: 100%;
+}
+
+#welcome-left {
+  width: fit-content;
+}
+
+#welcome-middle {
+  /* width: 30%; */
+  width: fit-content;
+  margin-left: 10px;
+}
+
+#ning {
+  width: 400px;
+}
+
+a {
+  color: black;
+}
+
+#socials {
+  float: right;
+}
