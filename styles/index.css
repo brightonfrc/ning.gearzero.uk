@@ -70,7 +70,7 @@ body {
 #welcome-middle {
   /* width: 30%; */
   width: fit-content;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 #ning {
@@ -84,3 +84,77 @@ a {
 #socials {
   float: right;
 }
+
+#boxes {
+  display: flex;
+}
+
+.box {
+  width: 50%;
+  background-color: #dddddd;
+  padding: 10px;
+  margin: 10px;
+}
+
+h2 {
+  margin: 0;
+}
+
+p {
+  margin: 0.5em 0 0 0;
+}
+
+ul {
+  padding: 0;
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+li {
+  list-style-type: none;
+  /* background-color: red; */
+  flex: 0 0 100%;
+  /* padding: 10px; */
+  scroll-snap-align: center;
+}
+
+.meet {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+  clip-path: circle(50% at center);
+  background-color: white;
+}
+
+.member {
+  text-align: center;
+  font-weight: bold;
+}
+
+.bio {
+  text-align: center;
+}
+
+/* ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: black;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  opacity: 1;
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  opacity: 0.2;
+  cursor: unset;
+} */
