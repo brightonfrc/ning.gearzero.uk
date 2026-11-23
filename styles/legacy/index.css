@@ -10,7 +10,7 @@
 
 body {
   /* background-color: aqua; */
-  background-image: url(/media/ning.png);
+  background-image: url(../../media/ning.png);
   background-size: 100vw 30vh;
   background-color: aqua;
   height: 100000vh;

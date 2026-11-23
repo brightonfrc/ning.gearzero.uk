@@ -1,25 +1,25 @@
 @font-face {
   font-family: Ubuntu;
-  src: url(/fonts/Ubuntu/Ubuntu-Regular.ttf);
+  src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf);
 }
 
 @font-face {
   font-family: Ubuntu;
   font-weight: bold;
-  src: url(/fonts/Ubuntu/Ubuntu-Bold.ttf);
+  src: url(../fonts/Ubuntu/Ubuntu-Bold.ttf);
 }
 
 @font-face {
   font-family: Ubuntu;
   font-style: italic;
-  src: url(/fonts/Ubuntu/Ubuntu-Italic.ttf);
+  src: url(../fonts/Ubuntu/Ubuntu-Italic.ttf);
 }
 
 @font-face {
   font-family: Ubuntu;
   font-weight: bold;
   font-style: italic;
-  src: url(/fonts/Ubuntu/Ubuntu-BoldItalic.ttf);
+  src: url(../fonts/Ubuntu/Ubuntu-BoldItalic.ttf);
 }
 
 * {
